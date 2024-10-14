@@ -19,4 +19,4 @@ COPY . /api/
 
 EXPOSE 8000
 
-CMD ["gunicorn", "api-settings.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "infra.django.wsgi:application", "--bind", "0.0.0.0:8000"]

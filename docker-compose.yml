@@ -3,7 +3,7 @@ version: "3.8"
 services:
   web:
     build: .
-    command: gunicorn api-settings.wsgi:application --bind 0.0.0.0:8000
+    command: gunicorn infra.django.wsgi:application --bind 0.0.0.0:8000
     volumes:
       - .:/api
     ports:
