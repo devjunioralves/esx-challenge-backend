@@ -32,6 +32,8 @@ To run the Django API you need to have Docker and Docker Compose installed
 
 ### `cd esx-challenge-backend`
 
+### `cp .env.example .env`
+
 ### `docker compose up --build`
 
 ## Future improvements
